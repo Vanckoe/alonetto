@@ -8,6 +8,7 @@ import PosterV16 from './_components/PosterV16';
 import Countdown18 from './_components/Countdown18';
 import WiseAlonator from './_components/WiseAlonator';
 import Footer from '@/components/layout/footer';
+// import FakeNewsBlock from './_components/FakeNewsBlock';
 
 export default function Home() {
     return (
@@ -23,6 +24,7 @@ export default function Home() {
                 <WiseAlonator />
 
                 <PosterV16 />
+                {/* <FakeNewsBlock /> */}
                 <Footer />
             </section>
         </div>

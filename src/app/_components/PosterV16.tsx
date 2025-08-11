@@ -27,7 +27,7 @@ export default function PosterV16() {
                     {/* гигантский водяной знак */}
                     <div className="pointer-events-none absolute inset-0 flex items-center justify-center">
                         <span className="select-none text-[26rem] font-black leading-none text-white/5 md:text-[38rem]">
-                            v16
+                            v17
                         </span>
                     </div>
 
@@ -95,11 +95,11 @@ export default function PosterV16() {
                     {/* бегущая строка */}
                     <div className="relative z-[1] mt-8 overflow-hidden rounded-xl border border-white/15">
                         <div className="animate-marquee flex whitespace-nowrap py-3 text-sm font-semibold uppercase tracking-[0.3em] text-white/80">
-                            <span className="mx-6">release v16</span>
+                            <span className="mx-6">release v17</span>
                             <span className="mx-6">one-man concert</span>
                             <span className="mx-6">limited seats</span>
                             <span className="mx-6">friends only</span>
-                            <span className="mx-6">release v16</span>
+                            <span className="mx-6">release v17</span>
                             <span className="mx-6">one-man concert</span>
                             <span className="mx-6">limited seats</span>
                             <span className="mx-6">friends only</span>

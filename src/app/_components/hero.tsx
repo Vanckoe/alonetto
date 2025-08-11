@@ -2,7 +2,6 @@
 
 import React from 'react';
 // import Header from '@/components/layout/header';
-import Image from 'next/image';
 import Link from 'next/link';
 import Header from '@/components/layout/header';
 
@@ -18,32 +17,23 @@ const Hero = () => {
                         </p>
                         <div className="mt-2 flex flex-row items-center gap-1.5 md:mt-5 md:gap-5">
                             <p className="text-nowrap text-[3.375rem] font-bold lowercase leading-[82%] -tracking-wider md:text-[8.125rem]">
-                                Alonator
+                                Alonator 2000
                             </p>
                         </div>
                         <p className="text-[3.375rem] font-bold lowercase leading-[82%] -tracking-wider md:text-[8.125rem]">
-                            2000
                             <span className="-ml-2 text-[3rem] font-extralight text-[#31A301] md:text-[7.125rem]">
                                 [
                             </span>
-                            ULTRA
+                            ULTRA pro max
                             <span className="text-[3rem] font-extralight text-[#31A301] md:text-[7.125rem]">
                                 ]
                             </span>
                         </p>
                         <div className="-mt-1 ml-auto flex flex-row items-center md:ml-14">
-                            <p className="text-[3.375rem] font-bold lowercase leading-[82%] -tracking-wider md:text-[8.125rem]">
-                                pro
-                            </p>
-                            <Image
-                                src={'/draws/heroTitleMouse.png'}
-                                width={33}
-                                height={48}
-                                alt="mouse"
-                                className="ml-4 mr-6 mt-5 w-[1.16rem] min-w-[1.16rem] md:ml-7 md:mr-8 md:mt-11 md:w-[2.125rem] md:min-w-[2.125rem]"
-                            />
-                            <p className="mt-5 hidden whitespace-pre-line text-xl font-normal opacity-40 md:block">
-                                max
+                            <p className="text-[3.375rem] font-bold lowercase leading-[82%] -tracking-wider md:text-[8.125rem]"></p>
+                            <p className="mt-5 hidden whitespace-pre-line text-xl font-normal md:ml-5 md:block">
+                                Легенда двора, покоритель ларьков и профессионал <br /> в искусстве
+                                «пожрать шаурму в 3 ночи».
                             </p>
                         </div>
                     </div>
@@ -69,14 +59,11 @@ const Hero = () => {
                     <div className="flex w-full flex-col md:w-fit md:flex-row">
                         {/* Step 1 */}
                         <div className="flex flex-col gap-3 pb-3 md:gap-5 md:pb-7 md:pt-[1.125rem]">
-                            <p className="ml-7 text-base font-medium md:ml-10 md:text-lg">
-                                ewfwefwefwe
-                            </p>
+                            <p className="text-base font-medium md:text-lg">Скорость</p>
                             <div className="flex flex-row items-start gap-3.5 md:gap-5">
-                                <div className="mt-1"></div>
                                 <p className="whitespace-pre-line text-base font-medium md:text-lg">
-                                    ewfwefwefwe
-                                    <span className="font-light text-[#979797]">ewfwefwefwe</span>
+                                    Разгоняется до 17 лет за{' '}
+                                    <span className="font-semibold text-white"> 5 секунд.</span>
                                 </p>
                             </div>
                         </div>
@@ -85,14 +72,13 @@ const Hero = () => {
 
                         {/* Step 2 */}
                         <div className="-mr-6 flex flex-col gap-3 pb-3 md:mr-0 md:gap-5 md:pb-7 md:pt-[1.125rem]">
-                            <p className="ml-7 text-base font-medium md:ml-10 md:text-lg">
-                                ewfwefwefwe
-                            </p>
+                            <p className="text-base font-medium md:text-lg">Мощь</p>
                             <div className="flex flex-row items-start gap-3.5 md:gap-5">
-                                <div className="mt-1"></div>
                                 <p className="whitespace-pre-line text-base font-medium md:text-lg">
-                                    ewfwefwefwe
-                                    <span className="font-light text-[#979797]">ewfwefwefwe</span>
+                                    Запас мемов — бесконечный.{' '}
+                                    <span className="font-semibold text-white">
+                                        Рофл в каждой фразе
+                                    </span>
                                 </p>
                             </div>
                         </div>
@@ -100,14 +86,11 @@ const Hero = () => {
 
                         {/* Step 3 */}
                         <div className="hidden flex-col gap-3 pb-3 md:flex md:w-fit md:gap-5 md:pb-7 md:pt-[1.125rem]">
-                            <p className="ml-7 text-base font-medium md:ml-10 md:text-lg">
-                                ewfwefwefwe
-                            </p>
+                            <p className="text-base font-medium md:text-lg">Эксклюзив</p>
                             <div className="flex flex-row items-start gap-3.5 md:gap-5">
-                                <div className="mt-1"></div>
                                 <p className="whitespace-pre-line text-base font-medium md:text-lg">
-                                    <span className="font-light text-[#979797]">ewfwefwefwe</span>{' '}
-                                    ewfwefwefwe
+                                    <span className="font-semibold text-white">Официальный</span>{' '}
+                                    поставщик угара в нашей компании.
                                 </p>
                             </div>
                         </div>
@@ -119,9 +102,8 @@ const Hero = () => {
                             ewfwefwefwe
                         </p>
                         <div className="flex flex-row items-start gap-3.5 md:gap-5">
-                            <div className="mt-1"></div>
                             <p className="whitespace-pre-line text-base font-medium md:text-lg">
-                                <span className="font-light text-[#979797]">ewfwefwefwe</span>{' '}
+                                <span className="font-semibold text-white">ewfwefwefwe</span>{' '}
                                 ewfwefwefwe
                             </p>
                         </div>

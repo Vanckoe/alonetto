@@ -31,9 +31,8 @@ const Hero = () => {
                         </p>
                         <div className="-mt-1 ml-auto flex flex-row items-center md:ml-14">
                             <p className="text-[3.375rem] font-bold lowercase leading-[82%] -tracking-wider md:text-[8.125rem]"></p>
-                            <p className="mt-5 hidden whitespace-pre-line text-xl font-normal md:ml-5 md:block">
-                                Легенда двора, покоритель ларьков и профессионал <br /> в искусстве
-                                «пожрать шаурму в 3 ночи».
+                            <p className="mt-5 hidden whitespace-pre-line text-xl font-normal md:ml-5 md:block md:text-4xl">
+                                Что за тигр а это лев
                             </p>
                         </div>
                     </div>

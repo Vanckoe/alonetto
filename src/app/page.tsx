@@ -23,8 +23,8 @@ export default function Home() {
                 <WiseAlonator />
 
                 <PosterV16 />
+                <Footer />
             </section>
-            <Footer />
         </div>
     );
 }

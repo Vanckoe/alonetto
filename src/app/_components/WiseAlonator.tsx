@@ -17,15 +17,22 @@ const advices = [
 ];
 
 export default function WiseAlonatorStatham() {
-    const [currentAdvice, setCurrentAdvice] = useState<string | null>(null);
+    const [index, setIndex] = useState(0);
     const [shake, setShake] = useState(false);
 
-    const getRandomAdvice = () => {
-        const random = advices[Math.floor(Math.random() * advices.length)];
-        setCurrentAdvice(random);
+    const nextAdvice = () => {
+        setIndex((i) => (i + 1) % advices.length);
         setShake(true);
         setTimeout(() => setShake(false), 200);
     };
+
+    const prevAdvice = () => {
+        setIndex((i) => (i - 1 + advices.length) % advices.length);
+        setShake(true);
+        setTimeout(() => setShake(false), 200);
+    };
+
+    const currentAdvice = advices[index];
 
     return (
         <section className="py-12 md:py-20">
@@ -35,17 +42,25 @@ export default function WiseAlonatorStatham() {
                 </h2>
                 <p className="mb-6 text-sm text-gray-500">*вчитывайся и следи за советами</p>
 
-                <button
-                    onClick={getRandomAdvice}
-                    className="rounded-full bg-[#31A301] px-6 py-3 text-white shadow-lg transition-transform duration-200 hover:scale-105 active:scale-95"
-                >
-                    Получить «умный» совет
-                </button>
+                <div className="flex items-center justify-center gap-2">
+                    <button
+                        onClick={prevAdvice}
+                        className="rounded-full border border-black/10 bg-white px-5 py-3 text-sm font-medium text-black transition-colors hover:bg-gray-50"
+                    >
+                        Назад
+                    </button>
+                    <button
+                        onClick={nextAdvice}
+                        className="rounded-full bg-[#31A301] px-6 py-3 text-white shadow-lg transition-transform duration-200 hover:scale-105 active:scale-95"
+                    >
+                        Следующий «умный» совет
+                    </button>
+                </div>
 
                 <AnimatePresence mode="wait">
                     {currentAdvice && (
                         <motion.p
-                            key={currentAdvice}
+                            key={index} // ключ по индексу, чтобы анимация срабатывала при каждом шаге
                             initial={{ opacity: 0, y: 8 }}
                             animate={{ opacity: 1, y: 0 }}
                             exit={{ opacity: 0, y: -8 }}

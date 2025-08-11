@@ -32,14 +32,14 @@ export default function RoflFooter() {
                 <div className="flex flex-col gap-3 text-sm">
                     <p className="text-gray-400">Мы тут иногда бываем:</p>
                     <div className="flex gap-4">
-                        <a href="#" className="transition-colors hover:text-[#31A301]">
-                            Instagram
+                        <a
+                            href="https://discord.gg/Zke72fVP"
+                            className="transition-colors hover:text-[#31A301]"
+                        >
+                            discord
                         </a>
-                        <a href="#" className="transition-colors hover:text-[#31A301]">
-                            TikTok
-                        </a>
-                        <a href="#" className="transition-colors hover:text-[#31A301]">
-                            YouTube
+                        <a href="/lol" className="transition-colors hover:text-[#31A301]">
+                            pornhub
                         </a>
                     </div>
                 </div>

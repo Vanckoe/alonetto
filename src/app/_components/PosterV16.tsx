@@ -53,10 +53,10 @@ export default function PosterV16() {
                             {/* CTA */}
                             <div className="mt-6 flex flex-wrap items-center gap-3">
                                 <Link
-                                    href="#tickets"
+                                    href="https://www.yaeby.pro/porno-video/gollum-came-to-the-wrong-cave-pure-kitty/"
                                     className="inline-flex items-center justify-center rounded-xl bg-[#31A301] px-6 py-3 text-sm font-semibold text-[#091C01] transition-transform hover:scale-[1.015]"
                                 >
-                                    получить «билет»
+                                    получить пизды
                                 </Link>
                                 <Link
                                     href="#soundpad"

@@ -1,10 +1,11 @@
 'use client';
 import React from 'react';
+import Hero from '@/app/_components/hero';
 
 export default function Home() {
     return (
         <div>
-            <h1 className="text-2xl">Empty project</h1>
+            <Hero />
         </div>
     );
 }

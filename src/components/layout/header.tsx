@@ -2,13 +2,13 @@
 
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
-import { usePathname } from 'next/navigation';
-import BurgerMenu from './burder';
-import Right from '@/assets/icons/right';
+// import Link from 'next/link';
+// import { usePathname } from 'next/navigation';
+// import BurgerMenu from './burder';
+// import Right from '@/assets/icons/right';
 
 const Header = () => {
-    const pathname = usePathname();
+    // const pathname = usePathname();
     const [isSticky, setIsSticky] = useState(false);
 
     useEffect(() => {
@@ -32,9 +32,9 @@ const Header = () => {
         };
     }, []);
 
-    const isActive = (href: string) => {
-        return pathname.endsWith(href);
-    };
+    // const isActive = (href: string) => {
+    //     return pathname.endsWith(href);
+    // };
 
     const baseClass =
         'container mx-auto flex flex-row items-center justify-between pt-10 md:pt-[3.75rem] transition-all duration-300';
@@ -55,7 +55,7 @@ const Header = () => {
                         alt="logo"
                         className="size-[3.75rem] min-w-[3.75rem] rounded-3xl object-fill md:size-[5.1875rem] md:min-h-[5.1875rem] md:min-w-[5.1875rem]"
                     />
-                    <div className="relative hidden flex-row items-center text-base font-medium md:flex">
+                    {/* <div className="relative hidden flex-row items-center text-base font-medium md:flex">
                         <Link
                             href={`/`}
                             className={`px-6 py-4 text-black ${
@@ -151,11 +151,11 @@ const Header = () => {
                         >
                             лмао
                         </Link>
-                    </div>
+                    </div> */}
 
-                    <div className="flex flex-row items-center gap-3.5 md:items-stretch">
+                    {/* <div className="flex flex-row items-center gap-3.5 md:items-stretch">
                         <BurgerMenu />
-                    </div>
+                    </div> */}
                 </div>
             </div>
 

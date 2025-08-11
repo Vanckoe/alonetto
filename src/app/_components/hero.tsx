@@ -7,13 +7,13 @@ import Header from '@/components/layout/header';
 
 const Hero = () => {
     return (
-        <div className="w-full bg-[url('/pic/hero.jpg')] bg-contain bg-[position:right_0.6rem] bg-no-repeat md:bg-[url('/pic/hero.jpg')] md:bg-cover md:bg-center">
+        <div className="w-full bg-[url('/pic/heroMini.jpg')] bg-contain bg-[position:right_0.6rem] bg-no-repeat md:bg-[url('/pic/hero.jpg')] md:bg-cover md:bg-center">
             <Header />
             <div className="container mx-auto mt-[1.875rem] md:mt-14">
                 <div className="flex w-full flex-col items-center md:w-[55.125rem] md:items-start">
                     <div className="flex flex-col">
                         <p className="mr-5 text-center text-base font-light uppercase leading-[150%] tracking-[0.06rem] text-[#CACACA] md:mr-0 md:text-start md:text-base md:tracking-[0.38rem]">
-                            ewfwefwefwe
+                            Сын Роналдо
                         </p>
                         <div className="mt-2 flex flex-row items-center gap-1.5 md:mt-5 md:gap-5">
                             <p className="text-nowrap text-[3.375rem] font-bold lowercase leading-[82%] -tracking-wider md:text-[8.125rem]">
@@ -38,19 +38,17 @@ const Hero = () => {
                         </div>
                     </div>
 
-                    <div className="mt-[2.125rem] flex w-fit min-w-[18.25rem] flex-col items-stretch gap-[1.125rem] md:ml-12 md:mt-[3.625rem] md:min-w-0 md:flex-row md:items-center md:gap-[1.875rem]">
+                    <div className="mt-[10.125rem] flex w-fit min-w-[18.25rem] flex-col items-stretch gap-[1.125rem] md:ml-12 md:mt-[3.625rem] md:min-w-0 md:flex-row md:items-center md:gap-[1.875rem]">
                         <button className="rounded-md bg-[#31A301] py-8 text-center text-base font-medium text-[#091C01] transition-transform duration-300 ease-in-out hover:scale-[1.015] md:rounded-lg md:px-9 md:py-10 md:text-lg">
                             ewfwefwefwe
                         </button>
                         <Link
-                            href={
-                                'https://seomarket.ua/?utm_source=grant&utm_medium=grant&utm_campaign=grant'
-                            }
+                            href={'https://www.instagram.com/dohl1u/'}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="rounded-md bg-white py-8 text-center text-base font-medium text-[#091C01] transition-transform duration-300 ease-in-out hover:scale-[1.015] md:rounded-lg md:px-[3.25rem] md:py-10 md:text-lg"
                         >
-                            ewfwefwefwe
+                            Спонсор сайта и главная мать сервера
                         </Link>
                     </div>
                 </div>
@@ -98,13 +96,11 @@ const Hero = () => {
 
                     {/* Step 3 */}
                     <div className="flex flex-col gap-3 pb-3 md:hidden md:w-fit md:gap-5 md:pb-7 md:pt-[1.125rem]">
-                        <p className="ml-7 text-base font-medium md:ml-10 md:text-lg">
-                            ewfwefwefwe
-                        </p>
+                        <p className="text-base font-medium md:ml-10 md:text-lg">Эксклюзив</p>
                         <div className="flex flex-row items-start gap-3.5 md:gap-5">
                             <p className="whitespace-pre-line text-base font-medium md:text-lg">
-                                <span className="font-semibold text-white">ewfwefwefwe</span>{' '}
-                                ewfwefwefwe
+                                <span className="font-semibold text-white">Официальный</span>{' '}
+                                поставщик угара в нашей компании.
                             </p>
                         </div>
                     </div>

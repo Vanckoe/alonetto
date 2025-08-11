@@ -65,7 +65,7 @@ export default function Countdown18() {
     }, []);
 
     return (
-        <section className="py-16 md:py-24">
+        <section className="pt-16 md:pt-24">
             <div className="container mx-auto">
                 <div className="mb-6 text-center">
                     <span className="inline-flex items-center gap-2 rounded-full border px-4 py-1 text-[10px] uppercase tracking-[0.2em] text-gray-500">

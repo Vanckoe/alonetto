@@ -6,6 +6,8 @@ import WishesBlock from './_components/WishesBlock';
 import SoundPad from './_components/SoundPad';
 import PosterV16 from './_components/PosterV16';
 import Countdown18 from './_components/Countdown18';
+import WiseAlonator from './_components/WiseAlonator';
+import Footer from '@/components/layout/footer';
 
 export default function Home() {
     return (
@@ -13,13 +15,16 @@ export default function Home() {
             <Hero />
             <ForWho />
             <SoundPad src="/alone.mp3" title="ALONATOR — MAIN THEME" />
+
             <WishesBlock />
 
             <section className="relative overflow-hidden">
                 <Countdown18 />
+                <WiseAlonator />
 
                 <PosterV16 />
             </section>
+            <Footer />
         </div>
     );
 }

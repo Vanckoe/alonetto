@@ -43,14 +43,14 @@ export default function Hero() {
                         >
                             Discord
                         </Link>
-                        <Link
+                        {/* <Link
                             href="https://www.instagram.com/dohl1u/"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="rounded-lg bg-white px-10 py-5 text-center text-lg font-medium text-black shadow-lg transition-transform duration-300 hover:scale-105"
                         >
                             Спонсор сайта и главная мать сервера
-                        </Link>
+                        </Link> */}
                     </div>
 
                     {/* Фичи */}

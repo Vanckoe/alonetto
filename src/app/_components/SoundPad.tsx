@@ -117,7 +117,7 @@ export default function SoundPad({ src = '/alone.mp3', title = 'Favorite Track' 
     }, [playing, duration]);
 
     return (
-        <section className="py-12 md:py-10">
+        <section id="soundpad" className="py-12 md:py-10">
             <div className="container mx-auto">
                 {/* Header */}
                 <div className="mb-8 text-center">
@@ -149,13 +149,13 @@ export default function SoundPad({ src = '/alone.mp3', title = 'Favorite Track' 
                         </div>
 
                         <div className="text-center">
-                            <div className="mx-auto mb-3 grid size-14 place-items-center rounded-2xl border border-black/10 bg-white bg-contain">
+                            <div className="mx-auto mb-3 grid size-14 place-items-center rounded-2xl border border-black/10 bg-white bg-[url('/pic/soundpad.jpg')] bg-contain">
                                 {playing ? (
                                     <svg
                                         width="24"
                                         height="24"
                                         viewBox="0 0 24 24"
-                                        className="fill-black"
+                                        className="fill-white"
                                     >
                                         <rect x="6" y="5" width="4" height="14" rx="1" />
                                         <rect x="14" y="5" width="4" height="14" rx="1" />
@@ -165,7 +165,7 @@ export default function SoundPad({ src = '/alone.mp3', title = 'Favorite Track' 
                                         width="24"
                                         height="24"
                                         viewBox="0 0 24 24"
-                                        className="fill-black"
+                                        className="fill-white"
                                     >
                                         <path d="M8 5v14l11-7z" />
                                     </svg>
@@ -208,7 +208,7 @@ export default function SoundPad({ src = '/alone.mp3', title = 'Favorite Track' 
                             <div className="flex items-center gap-2">
                                 <button
                                     onClick={togglePlay}
-                                    className="rounded-lg border border-black/10 bg-white px-3 py-2 text-sm font-medium transition-colors hover:bg-gray-50"
+                                    className="rounded-lg border border-black/10 bg-white px-3 py-2 text-sm font-medium text-black transition-colors hover:bg-gray-50"
                                 >
                                     {playing ? 'Pause' : 'Play'}
                                 </button>

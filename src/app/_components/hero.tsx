@@ -38,30 +38,36 @@ const Hero = () => {
                         </div>
                     </div>
 
-                    <div className="mt-[10.125rem] flex w-fit min-w-[18.25rem] flex-col items-stretch gap-[1.125rem] md:ml-12 md:mt-[3.625rem] md:min-w-0 md:flex-row md:items-center md:gap-[1.875rem]">
-                        <button className="rounded-md bg-[#31A301] py-8 text-center text-base font-medium text-[#091C01] transition-transform duration-300 ease-in-out hover:scale-[1.015] md:rounded-lg md:px-9 md:py-10 md:text-lg">
-                            ewfwefwefwe
-                        </button>
+                    <div className="mt-[10.125rem] flex w-fit min-w-[22.25rem] flex-col items-stretch gap-[1.125rem] md:ml-12 md:mt-[3.625rem] md:min-w-0 md:flex-row md:items-center md:gap-[1.875rem]">
+                        <Link
+                            href={'https://discord.gg/xuzXW5GE'}
+                            className="rounded-md bg-[#31A301] py-8 text-center text-base font-medium text-[#091C01] transition-transform duration-300 ease-in-out hover:scale-[1.015] md:rounded-lg md:px-9 md:py-10 md:text-xl"
+                        >
+                            Discord
+                        </Link>
                         <Link
                             href={'https://www.instagram.com/dohl1u/'}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="rounded-md bg-white py-8 text-center text-base font-medium text-[#091C01] transition-transform duration-300 ease-in-out hover:scale-[1.015] md:rounded-lg md:px-[3.25rem] md:py-10 md:text-lg"
+                            className="rounded-md bg-white py-8 text-center text-base font-medium text-[#091C01] transition-transform duration-300 ease-in-out hover:scale-[1.015] md:rounded-lg md:px-[3.25rem] md:py-10 md:text-xl"
                         >
                             Спонсор сайта и главная мать сервера
                         </Link>
                     </div>
                 </div>
 
-                <div className="mt-44 flex flex-col items-center tracking-wide md:ml-3 md:mt-[4.75rem] md:flex-row">
+                <div className="mt-20 flex flex-col items-center tracking-wide md:ml-3 md:mt-[4.75rem] md:flex-row">
                     <div className="flex w-full flex-col md:w-fit md:flex-row">
                         {/* Step 1 */}
                         <div className="flex flex-col gap-3 pb-3 md:gap-5 md:pb-7 md:pt-[1.125rem]">
-                            <p className="text-base font-medium md:text-lg">Скорость</p>
+                            <p className="text-2xl font-medium md:text-xl">Скорость</p>
                             <div className="flex flex-row items-start gap-3.5 md:gap-5">
-                                <p className="whitespace-pre-line text-base font-medium md:text-lg">
+                                <p className="whitespace-pre-line text-base font-medium md:text-xl">
                                     Разгоняется до 17 лет за{' '}
-                                    <span className="font-semibold text-white"> 5 секунд.</span>
+                                    <span className="text-xl font-semibold text-white">
+                                        {' '}
+                                        5 секунд.
+                                    </span>
                                 </p>
                             </div>
                         </div>
@@ -70,11 +76,11 @@ const Hero = () => {
 
                         {/* Step 2 */}
                         <div className="-mr-6 flex flex-col gap-3 pb-3 md:mr-0 md:gap-5 md:pb-7 md:pt-[1.125rem]">
-                            <p className="text-base font-medium md:text-lg">Мощь</p>
+                            <p className="text-2xl font-medium md:text-xl">Мощь</p>
                             <div className="flex flex-row items-start gap-3.5 md:gap-5">
-                                <p className="whitespace-pre-line text-base font-medium md:text-lg">
+                                <p className="whitespace-pre-line text-base font-medium md:text-xl">
                                     Запас мемов — бесконечный.{' '}
-                                    <span className="font-semibold text-white">
+                                    <span className="text-xl font-semibold text-white">
                                         Рофл в каждой фразе
                                     </span>
                                 </p>
@@ -84,10 +90,12 @@ const Hero = () => {
 
                         {/* Step 3 */}
                         <div className="hidden flex-col gap-3 pb-3 md:flex md:w-fit md:gap-5 md:pb-7 md:pt-[1.125rem]">
-                            <p className="text-base font-medium md:text-lg">Эксклюзив</p>
+                            <p className="text-2xl font-medium md:text-xl">Эксклюзив</p>
                             <div className="flex flex-row items-start gap-3.5 md:gap-5">
-                                <p className="whitespace-pre-line text-base font-medium md:text-lg">
-                                    <span className="font-semibold text-white">Официальный</span>{' '}
+                                <p className="whitespace-pre-line text-base font-medium md:text-xl">
+                                    <span className="text-xl font-semibold text-white">
+                                        Официальный
+                                    </span>{' '}
                                     поставщик угара в нашей компании.
                                 </p>
                             </div>
@@ -96,10 +104,12 @@ const Hero = () => {
 
                     {/* Step 3 */}
                     <div className="flex flex-col gap-3 pb-3 md:hidden md:w-fit md:gap-5 md:pb-7 md:pt-[1.125rem]">
-                        <p className="text-base font-medium md:ml-10 md:text-lg">Эксклюзив</p>
+                        <p className="text-2xl font-medium md:ml-10 md:text-xl">Эксклюзив</p>
                         <div className="flex flex-row items-start gap-3.5 md:gap-5">
-                            <p className="whitespace-pre-line text-base font-medium md:text-lg">
-                                <span className="font-semibold text-white">Официальный</span>{' '}
+                            <p className="whitespace-pre-line text-base font-medium md:text-xl">
+                                <span className="text-xl font-semibold text-white">
+                                    Официальный
+                                </span>{' '}
                                 поставщик угара в нашей компании.
                             </p>
                         </div>

@@ -17,7 +17,7 @@ const wishes: Wish[] = [
     },
     {
         name: 'Aйнур',
-        photo: '/wish/ainur.gif',
+        photo: '/pic/wish/ainur.gif',
         text: 'Алон, алоша и просто бузик с днем твоего ррррожденией, рада что с тобой познакомилась, и желаю тебе много золото, роналдо, власть над одором и здоровые😎 🤝 😈 🤍',
     },
     {
@@ -31,9 +31,9 @@ const wishes: Wish[] = [
         text: 'счастья, здоровья, любви, успехов во всех начинаниях, исполнения желаний и всего наилучшего. Можно также пожелать достатка, благополучия, удачи, радости, ярких моментов и верных друзей',
     },
     {
-        name: 'Кирилл',
-        photo: '/pic/wish/legenda.jpg',
-        text: 'Пусть каждый твой день будет как пятничный вечер в нашем дворе.',
+        name: 'Богдан',
+        photo: '/pic/wish/bogdan.jpg',
+        text: 'Пусто ---- *Видимо Багдан слишком туп для того чтобы написать тебе поздравление',
     },
     {
         name: 'Кирилл',
@@ -134,7 +134,20 @@ export default function WishesBlock() {
                             className="rounded-2xl border border-black/10 bg-white p-6 text-left shadow-sm transition-transform duration-300 hover:-translate-y-1 active:translate-y-0.5"
                         >
                             <div className="relative mb-4 h-48 w-full cursor-zoom-in overflow-hidden rounded-lg">
-                                <Image src={w.photo} alt={w.name} fill className="object-cover" />
+                                {w.photo.endsWith('.gif') ? (
+                                    <img
+                                        src={w.photo}
+                                        alt={w.name}
+                                        className="h-full w-full object-cover"
+                                    />
+                                ) : (
+                                    <Image
+                                        src={w.photo}
+                                        alt={w.name}
+                                        fill
+                                        className="object-cover"
+                                    />
+                                )}
                             </div>
                             <h3 className="mb-2 text-lg font-semibold text-black">{w.name}</h3>
                             <p className="text-gray-600">{w.text}</p>

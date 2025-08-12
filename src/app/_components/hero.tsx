@@ -58,22 +58,25 @@ export default function Hero() {
                         <div>
                             <h3 className="text-xl font-semibold">Скорость</h3>
                             <p className="mt-2 text-gray-300">
-                                Разгоняется до 17 лет за{' '}
+                                Отлетает в мафии за{' '}
                                 <span className="font-bold text-white">5 секунд</span>.
                             </p>
                         </div>
                         <div>
                             <h3 className="text-xl font-semibold">Мощь</h3>
                             <p className="mt-2 text-gray-300">
-                                Запас мемов — бесконечный.{' '}
-                                <span className="font-bold text-white">Рофл в каждой фразе</span>.
+                                Может <span className="font-bold text-white"> разьебать </span>
+                                Арнольда Шварца и нигера
+                                <br /> или как там было
                             </p>
                         </div>
                         <div>
                             <h3 className="text-xl font-semibold">Эксклюзив</h3>
                             <p className="mt-2 text-gray-300">
-                                <span className="font-bold text-white">Официальный</span> поставщик
-                                угара в нашей компании.
+                                Его звали{' '}
+                                <span className="font-bold text-white">Alone Dust 2 </span> раза.{' '}
+                                <br />
+                                Но его обычно не зовут он сам приходит
                             </p>
                         </div>
                     </div>

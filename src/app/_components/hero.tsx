@@ -18,17 +18,17 @@ export default function Hero() {
             <div className="relative z-10">
                 <Header />
 
-                <div className="container mx-auto flex min-h-[85vh] flex-col justify-center pt-16 md:pt-32">
+                <div className="container mx-auto flex min-h-[85vh] flex-col justify-center pt-16 md:pt-20">
                     {/* Заголовки */}
                     <div className="max-w-4xl">
                         <p className="text-base uppercase tracking-[0.3em] text-[#CACACA]">
                             Сын Роналдо
                         </p>
                         <h1 className="mt-4 text-[3rem] font-bold leading-[0.9] md:text-[7rem]">
-                            Alonator 2000
+                            Alonator 3000
                         </h1>
-                        <h2 className="mt-2 text-[2.5rem] font-light text-[#31A301] md:text-[5.5rem]">
-                            [ ULTRA pro max ]
+                        <h2 className="mt-2 text-[2.5rem] font-light leading-[6rem] text-white md:text-[5.5rem]">
+                            <span className="text-[#31A301]">[ ULTRA ]</span> pro max
                         </h2>
                         <p className="mt-6 text-lg text-gray-300 md:text-2xl">
                             Что за тигр, а это лев.

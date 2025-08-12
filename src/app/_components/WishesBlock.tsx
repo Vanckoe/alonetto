@@ -115,9 +115,9 @@ export default function WishesBlock() {
                             <button
                                 key={`m-${i}`}
                                 onClick={() => openModal(w.photo)}
-                                className="min-w-[16rem] flex-1 rounded-2xl border border-white/10 bg-white/5 p-5 text-left backdrop-blur active:scale-[0.995]"
+                                className="flex min-w-64 flex-1 flex-col rounded-2xl border border-white/10 bg-white/5 p-5 text-left backdrop-blur active:scale-[0.995]"
                             >
-                                <div className="relative mb-4 h-40 w-full cursor-zoom-in overflow-hidden rounded-lg">
+                                <div className="relative mb-4 h-44 w-full cursor-zoom-in overflow-hidden rounded-lg">
                                     {w.photo.endsWith('.gif') ? (
                                         <img
                                             src={w.photo}

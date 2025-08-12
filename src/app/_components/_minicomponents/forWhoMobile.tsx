@@ -73,7 +73,7 @@ const Card = ({ link }: Card) => {
                 width={241}
                 height={300}
                 alt="wqdq"
-                className="h-[35rem] w-[75rem] rounded-2xl"
+                className="h-[25rem] w-[85rem] rounded-2xl"
             />
         </div>
     );

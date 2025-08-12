@@ -72,9 +72,8 @@ export default function Hero() {
                         <div>
                             <h3 className="text-xl font-semibold">Эксклюзив</h3>
                             <p className="mt-2 text-gray-300">
-                                Его звали{' '}
-                                <span className="font-bold text-white">Alone Dust 2 </span> раза.{' '}
-                                <br />
+                                Его звали <span className="font-bold text-white">Alon Dust 2 </span>{' '}
+                                раза. <br />
                                 Дает каждому второму, жаль что я первый((
                             </p>
                         </div>

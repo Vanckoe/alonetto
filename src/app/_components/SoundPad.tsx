@@ -214,7 +214,7 @@ export default function SoundPad({ src = '/alone.mp3', title = 'Favorite Track' 
                                 </button>
                                 <button
                                     onClick={() => setLoop((l) => !l)}
-                                    className={`rounded-lg px-3 py-2 text-sm font-medium transition-colors ${loop ? 'bg-[#31A301] text-[#091C01]' : 'border border-black/10 bg-white hover:bg-gray-50'}`}
+                                    className={`rounded-lg px-3 py-2 text-sm font-medium transition-colors ${loop ? 'bg-[#31A301] text-[#091C01]' : 'border border-black/10 bg-white text-black hover:bg-gray-50'}`}
                                 >
                                     Loop {loop ? 'On' : 'Off'}
                                 </button>

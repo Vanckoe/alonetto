@@ -63,11 +63,10 @@ export default function Hero() {
                             </p>
                         </div>
                         <div>
-                            <h3 className="text-xl font-semibold">Мощь</h3>
+                            <h3 className="text-xl font-semibold">Достигатор</h3>
                             <p className="mt-2 text-gray-300">
-                                Может <span className="font-bold text-white"> разьебать </span>
-                                Арнольда Шварца и нигера
-                                <br /> или как там было
+                                Главное достижение:{' '}
+                                <span className="font-bold text-white"> парень </span>Леры
                             </p>
                         </div>
                         <div>
@@ -76,7 +75,7 @@ export default function Hero() {
                                 Его звали{' '}
                                 <span className="font-bold text-white">Alone Dust 2 </span> раза.{' '}
                                 <br />
-                                Но его обычно не зовут он сам приходит
+                                Дает каждому второму, жаль что я первый((
                             </p>
                         </div>
                     </div>

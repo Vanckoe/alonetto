@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
-// import Link from 'next/link';
+import Link from 'next/link';
 // import { usePathname } from 'next/navigation';
 // import BurgerMenu from './burder';
 // import Right from '@/assets/icons/right';
@@ -48,13 +48,15 @@ const Header = () => {
                 className={`${isSticky ? stickyClass : ''} transition-transform duration-500 ease-in-out`}
             >
                 <div className={baseClass}>
-                    <Image
-                        src={'/pic/logo.jpg'}
-                        width={163}
-                        height={78}
-                        alt="logo"
-                        className="size-[3.75rem] min-w-[3.75rem] rounded-3xl object-fill md:size-[5.1875rem] md:min-h-[5.1875rem] md:min-w-[5.1875rem]"
-                    />
+                    <Link href={'https://vanckoe.vercel.app/main'}>
+                        <Image
+                            src={'/pic/logo.jpg'}
+                            width={163}
+                            height={78}
+                            alt="logo"
+                            className="size-[3.75rem] min-w-[3.75rem] rounded-3xl object-fill md:size-[5.1875rem] md:min-h-[5.1875rem] md:min-w-[5.1875rem]"
+                        />
+                    </Link>
                     {/* <div className="relative hidden flex-row items-center text-base font-medium md:flex">
                         <Link
                             href={`/`}

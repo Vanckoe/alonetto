@@ -92,7 +92,7 @@ export default function Countdown18() {
                                 initial={{ scale: 0.98, opacity: 0 }}
                                 animate={{ scale: 1, opacity: 1 }}
                                 transition={{ type: 'spring', stiffness: 200, damping: 20 }}
-                                className="text-7xl font-black tabular-nums leading-none text-[#31A301] md:text-8xl"
+                                className="text-[12rem] font-black tabular-nums leading-none text-[#31A301] md:text-8xl"
                             >
                                 {d}
                             </motion.div>

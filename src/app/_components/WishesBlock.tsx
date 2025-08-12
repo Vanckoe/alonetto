@@ -133,7 +133,7 @@ export default function WishesBlock() {
 
                 {/* Mobile: scroll */}
                 <div className="md:hidden">
-                    <div className="-mx-4 flex gap-4 overflow-x-auto px-4 pb-2">
+                    <div className="-mx-4 flex items-start gap-4 overflow-x-auto px-4 pb-2">
                         {wishes.map((w, i) => (
                             <button
                                 key={`m-${i}`}
@@ -156,7 +156,7 @@ export default function WishesBlock() {
                                         />
                                     )}
                                 </div>
-                                <h3 className="mb-2 text-lg font-semibold text-black">{w.name}</h3>
+                                <h3 className="mb-2 text-lg font-semibold text-white">{w.name}</h3>
                                 <p className="text-sm text-gray-300">{w.text}</p>
                             </button>
                         ))}

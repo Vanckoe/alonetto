@@ -33,7 +33,7 @@ const wishes: Wish[] = [
     {
         name: 'Богдан',
         photo: '/pic/wish/bogdan.jpg',
-        text: '---',
+        text: 'Алончик поздравляю тебя с днем рождения',
     },
     {
         name: 'Akim',

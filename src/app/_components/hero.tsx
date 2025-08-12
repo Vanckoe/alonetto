@@ -11,7 +11,7 @@ export default function Hero() {
             <div className="absolute inset-0">
                 <div className="absolute inset-0 hidden bg-[url('/pic/hero.jpg')] bg-cover bg-center opacity-70 md:block" />
                 <div className="absolute inset-0 bg-[url('/pic/heroMini.jpg')] bg-contain bg-right-top bg-no-repeat md:hidden" />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#0f0f0f] via-black/40 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#0f0f0f] via-black/0 to-transparent" />
             </div>
 
             {/* Контент */}

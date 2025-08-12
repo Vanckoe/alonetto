@@ -48,7 +48,7 @@ export default function RoflFooter() {
             {/* Нижний бар */}
             <div className="border-t border-white/10 py-4 text-center text-xs text-gray-500">
                 © {new Date().getFullYear()} RoflCorp. Все права защищены. Использование сайта
-                улучшает твоё чувство юмора. Cookies? Да, у нас есть печеньки.
+                может влиять на потенцию. Cookies? Да, у нас есть печеньки.
             </div>
         </footer>
     );

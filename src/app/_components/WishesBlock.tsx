@@ -45,10 +45,25 @@ const wishes: Wish[] = [
         photo: '/pic/wish/eva.jpg',
         text: 'С днем рождения🥳!! Надеюсь хоть в 17 лет начнёшь уметь играть 😉',
     },
+    {
+        name: 'Одер',
+        photo: '/pic/wish/oder.gif',
+        text: 'Когда тебя я вижу, улитаю на Гавай Сразу вспоменаю твой ааа-ну-саййй Дажеее через года меня не бросай So i wont had to hear any :"bby bye bye bye',
+    },
+    {
+        name: 'Макар',
+        photo: '/pic/wish/makar.png',
+        text: 'саси старый',
+    },
+    {
+        name: 'Камилла',
+        photo: '/pic/wish/kamilla.jpg',
+        text: 'с др',
+    },
     // {
     //     name: 'Кирилл',
     //     photo: '/pic/wish/legenda.jpg',
-    //     text: 'Пусть каждый твой день будет как пятничный вечер в нашем дворе.',
+    //     text: 'Пусть',
     // },
 ];
 
@@ -131,7 +146,7 @@ export default function WishesBlock() {
                         <button
                             key={`d-${i}`}
                             onClick={() => openModal(w.photo)}
-                            className="rounded-2xl border border-black/10 bg-white p-6 text-left shadow-sm transition-transform duration-300 hover:-translate-y-1 active:translate-y-0.5"
+                            className="flex flex-col rounded-2xl border border-black/10 bg-white p-6 text-left shadow-sm transition-transform duration-300 hover:-translate-y-1 active:translate-y-0.5"
                         >
                             <div className="relative mb-4 h-48 w-full cursor-zoom-in overflow-hidden rounded-lg">
                                 {w.photo.endsWith('.gif') ? (
